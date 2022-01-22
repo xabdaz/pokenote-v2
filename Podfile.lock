@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.4.4)
+  - Cleanse (4.2.6)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cleanse
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Cleanse
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Cleanse: 6bfc62033dcc0e5ba7992f410a5352ddd1283551
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 7aecab11595b526ccb7eb11a59382be744ff62c3
+
+COCOAPODS: 1.11.2

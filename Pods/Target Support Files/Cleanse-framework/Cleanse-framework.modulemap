@@ -1,0 +1,6 @@
+framework module Cleanse {
+  umbrella header "Cleanse-framework-umbrella.h"
+
+  export *
+  module * { export * }
+}

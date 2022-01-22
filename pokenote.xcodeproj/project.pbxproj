@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A1854AB38457B2EAFA26B57 /* Pods_pokenote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7125EFD048234DE4C08250 /* Pods_pokenote.framework */; };
 		9FADE408279B1E480039EACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FADE407279B1E480039EACA /* AppDelegate.swift */; };
 		9FADE40A279B1E480039EACA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FADE409279B1E480039EACA /* SceneDelegate.swift */; };
 		9FADE40C279B1E480039EACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FADE40B279B1E480039EACA /* ViewController.swift */; };
@@ -16,6 +17,10 @@
 		9FADE417279B1E4A0039EACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FADE415279B1E4A0039EACA /* LaunchScreen.storyboard */; };
 		9FADE422279B1E4A0039EACA /* pokenoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FADE421279B1E4A0039EACA /* pokenoteTests.swift */; };
 		9FADE42D279B1E4A0039EACA /* pokenoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FADE42C279B1E4A0039EACA /* pokenoteUITests.swift */; };
+		9FADE461279B208F0039EACA /* CoreModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FADE460279B208F0039EACA /* CoreModule.framework */; };
+		9FADE462279B208F0039EACA /* CoreModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9FADE460279B208F0039EACA /* CoreModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B61DE3F64E9CD80D02F422D1 /* Pods_pokenoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54477EF8A6E6D407EEF84D9A /* Pods_pokenoteTests.framework */; };
+		FF72CAC68DC553572B51552C /* Pods_pokenote_pokenoteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339A8F3E644250206AF1AA8C /* Pods_pokenote_pokenoteUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9FADE463279B208F0039EACA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9FADE462279B208F0039EACA /* CoreModule.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		339A8F3E644250206AF1AA8C /* Pods_pokenote_pokenoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pokenote_pokenoteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4713871EF8F3E4003F7F3E6F /* Pods-pokenoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokenoteTests.release.xcconfig"; path = "Target Support Files/Pods-pokenoteTests/Pods-pokenoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E05739B9D5D8643ECC0C74A /* Pods-pokenote-pokenoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokenote-pokenoteUITests.debug.xcconfig"; path = "Target Support Files/Pods-pokenote-pokenoteUITests/Pods-pokenote-pokenoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54477EF8A6E6D407EEF84D9A /* Pods_pokenoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pokenoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		964260246DE122E891DE1C76 /* Pods-pokenote-pokenoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokenote-pokenoteUITests.release.xcconfig"; path = "Target Support Files/Pods-pokenote-pokenoteUITests/Pods-pokenote-pokenoteUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9FADE404279B1E480039EACA /* pokenote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokenote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FADE407279B1E480039EACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FADE409279B1E480039EACA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +75,11 @@
 		9FADE428279B1E4A0039EACA /* pokenoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokenoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FADE42C279B1E4A0039EACA /* pokenoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokenoteUITests.swift; sourceTree = "<group>"; };
 		9FADE42E279B1E4A0039EACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FADE460279B208F0039EACA /* CoreModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7125EFD048234DE4C08250 /* Pods_pokenote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pokenote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C308C29BD4719B0AF36D3301 /* Pods-pokenote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokenote.release.xcconfig"; path = "Target Support Files/Pods-pokenote/Pods-pokenote.release.xcconfig"; sourceTree = "<group>"; };
+		D03D3B7ECFBBED4A34BE4578 /* Pods-pokenoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokenoteTests.debug.xcconfig"; path = "Target Support Files/Pods-pokenoteTests/Pods-pokenoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E50109C85AE684EBF95AC448 /* Pods-pokenote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokenote.debug.xcconfig"; path = "Target Support Files/Pods-pokenote/Pods-pokenote.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1854AB38457B2EAFA26B57 /* Pods_pokenote.framework in Frameworks */,
+				9FADE461279B208F0039EACA /* CoreModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61DE3F64E9CD80D02F422D1 /* Pods_pokenoteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +104,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF72CAC68DC553572B51552C /* Pods_pokenote_pokenoteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80B3C093EC74FC2831964A72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FADE460279B208F0039EACA /* CoreModule.framework */,
+				AF7125EFD048234DE4C08250 /* Pods_pokenote.framework */,
+				339A8F3E644250206AF1AA8C /* Pods_pokenote_pokenoteUITests.framework */,
+				54477EF8A6E6D407EEF84D9A /* Pods_pokenoteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9FADE3FB279B1E480039EACA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,8 @@
 				9FADE420279B1E4A0039EACA /* pokenoteTests */,
 				9FADE42B279B1E4A0039EACA /* pokenoteUITests */,
 				9FADE405279B1E480039EACA /* Products */,
+				A7231E661C8A1C5B77F0498F /* Pods */,
+				80B3C093EC74FC2831964A72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +177,19 @@
 			path = pokenoteUITests;
 			sourceTree = "<group>";
 		};
+		A7231E661C8A1C5B77F0498F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E50109C85AE684EBF95AC448 /* Pods-pokenote.debug.xcconfig */,
+				C308C29BD4719B0AF36D3301 /* Pods-pokenote.release.xcconfig */,
+				4E05739B9D5D8643ECC0C74A /* Pods-pokenote-pokenoteUITests.debug.xcconfig */,
+				964260246DE122E891DE1C76 /* Pods-pokenote-pokenoteUITests.release.xcconfig */,
+				D03D3B7ECFBBED4A34BE4578 /* Pods-pokenoteTests.debug.xcconfig */,
+				4713871EF8F3E4003F7F3E6F /* Pods-pokenoteTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FADE431279B1E4A0039EACA /* Build configuration list for PBXNativeTarget "pokenote" */;
 			buildPhases = (
+				E2CD7A1F183EE2EDA01D37EC /* [CP] Check Pods Manifest.lock */,
 				9FADE400279B1E480039EACA /* Sources */,
 				9FADE401279B1E480039EACA /* Frameworks */,
 				9FADE402279B1E480039EACA /* Resources */,
+				9FADE463279B208F0039EACA /* Embed Frameworks */,
+				BCDD15E37086277A8F84A0FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FADE434279B1E4A0039EACA /* Build configuration list for PBXNativeTarget "pokenoteTests" */;
 			buildPhases = (
+				25B4A1D7A556CF461AF5906E /* [CP] Check Pods Manifest.lock */,
 				9FADE419279B1E4A0039EACA /* Sources */,
 				9FADE41A279B1E4A0039EACA /* Frameworks */,
 				9FADE41B279B1E4A0039EACA /* Resources */,
@@ -173,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FADE437279B1E4A0039EACA /* Build configuration list for PBXNativeTarget "pokenoteUITests" */;
 			buildPhases = (
+				9D0CDB9447D283AD24A1F03E /* [CP] Check Pods Manifest.lock */,
 				9FADE424279B1E4A0039EACA /* Sources */,
 				9FADE425279B1E4A0039EACA /* Frameworks */,
 				9FADE426279B1E4A0039EACA /* Resources */,
+				5583E9E1C9924379759A8FB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +320,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25B4A1D7A556CF461AF5906E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pokenoteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5583E9E1C9924379759A8FB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pokenote-pokenoteUITests/Pods-pokenote-pokenoteUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pokenote-pokenoteUITests/Pods-pokenote-pokenoteUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pokenote-pokenoteUITests/Pods-pokenote-pokenoteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D0CDB9447D283AD24A1F03E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pokenote-pokenoteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCDD15E37086277A8F84A0FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pokenote/Pods-pokenote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pokenote/Pods-pokenote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pokenote/Pods-pokenote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2CD7A1F183EE2EDA01D37EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pokenote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9FADE400279B1E480039EACA /* Sources */ = {
@@ -437,6 +605,7 @@
 		};
 		9FADE432279B1E4A0039EACA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E50109C85AE684EBF95AC448 /* Pods-pokenote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +625,7 @@
 		};
 		9FADE433279B1E4A0039EACA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C308C29BD4719B0AF36D3301 /* Pods-pokenote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +645,7 @@
 		};
 		9FADE435279B1E4A0039EACA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03D3B7ECFBBED4A34BE4578 /* Pods-pokenoteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +668,7 @@
 		};
 		9FADE436279B1E4A0039EACA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4713871EF8F3E4003F7F3E6F /* Pods-pokenoteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +691,7 @@
 		};
 		9FADE438279B1E4A0039EACA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E05739B9D5D8643ECC0C74A /* Pods-pokenote-pokenoteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +712,7 @@
 		};
 		9FADE439279B1E4A0039EACA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 964260246DE122E891DE1C76 /* Pods-pokenote-pokenoteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
