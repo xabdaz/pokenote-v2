@@ -13,8 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let test = HttpRequest()
-        print(test.data)
+        
+        let dasdfa = HttpRequest()
+//        let test = HttpRequest()
+//        print(test.data)
     }
 
 
