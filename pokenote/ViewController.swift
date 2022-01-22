@@ -15,8 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         let dasdfa = HttpRequest()
+        self.view.backgroundColor = .red
 //        let test = HttpRequest()
 //        print(test.data)
+        print(#function)
     }
 
 

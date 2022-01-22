@@ -10,12 +10,24 @@ import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    var window : UIWindow?
+    func application(_ application: UIApplication,
+        didFinishLaunchingWithOptions
+        launchOptions: [UIApplication.LaunchOptionsKey : Any]?)
+        -> Bool {
+            
+            self.window = UIWindow()
+            if #available(iOS 13, *) {
+                // do only pure app launch stuff, not interface stuff
+            } else {
+                
 
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+                    let vc = ViewController()
+                    self.window!.rootViewController = vc
+                    self.window!.makeKeyAndVisible()
+            }
+            return true
     }
 
     // MARK: UISceneSession Lifecycle
